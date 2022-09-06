@@ -13,5 +13,9 @@ int main()
 	else{
 		delta = b*b -(4*a*c);
 	}
+	if(delta < 0)
+	{
+		cout << "No Answer" <<endl;
+	}
 	return 0;
 }
