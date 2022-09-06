@@ -10,5 +10,8 @@ int main()
 	{
 		cout << "This equation has no roots" << endl;
 	}
+	else{
+		delta = b*b -(4*a*c);
+	}
 	return 0;
 }
