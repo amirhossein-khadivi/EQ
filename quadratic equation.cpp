@@ -22,5 +22,10 @@ int main()
 		x1 = -b/(2*a);
 	    cout << "answer is: " << x1 <<endl;
 	}
+	else if(delta == 0)
+	{
+		x1 = -b/(2*a);
+	    cout << "answer is: " << x1 <<endl;
+	}
 	return 0;
 }
