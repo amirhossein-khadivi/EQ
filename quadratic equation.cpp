@@ -27,5 +27,11 @@ int main()
 		x1 = -b/(2*a);
 	    cout << "answer is: " << x1 <<endl;
 	}
+	else
+	{
+		x1 = (-b + sqrt(delta))/(2*a);
+		x2 = (-b - sqrt(delta))/(2*a);
+		cout << "answers is: " << x1 << "," << x2 <<endl;
+	}
 	return 0;
 }
